@@ -1,5 +1,48 @@
-.home {
-  font-size: 70px;
+.create-plan-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(https://imgur.com/1gJH83M.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50rem;
+  margin: 12rem 2.5rem;
+  border-radius: 10px;
   text-align: center;
-  line-height: 55rem;
+}
+
+.create-plan-content__container {
+  padding: 0 15px;
+}
+
+.create-plan-card__title {
+  font-family: "Fraunces", serif;
+  color: #fefcf7;
+  font-size: 4rem;
+  line-height: 5rem;
+}
+
+.create-plan-card__text {
+  font-family: "Barlow", serif;
+  color: #fefcf7;
+  font-size: 1.5rem;
+  line-height: 3rem;
+  opacity: 0.8;
+  margin: 4rem 0;
+}
+
+.create-plan-card__button {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #fefcf7;
+  background-color: #0e8784;
+  transition: all 0.1s ease-in-out;
+  border: none;
+  border-radius: 10px;
+  padding: 2rem 3rem;
+}
+
+.create-plan-card__button:hover {
+  background-color: #66d2cf;
 }
