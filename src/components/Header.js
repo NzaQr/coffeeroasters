@@ -16,37 +16,36 @@ export default function Header() {
       </Link>
       <div className="nav">
         <Link to="#" className="menu-bars">
-          <FaIcons.FaBars onClick={showSidebar} />
+          {sidebar ? (
+            <AiIcons.AiOutlineClose onClick={showSidebar} />
+          ) : (
+            <FaIcons.FaBars onClick={showSidebar} />
+          )}
         </Link>
         <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
           <ul className="nav-menu-items" onClick={showSidebar}>
-            <li className="navbar-toggle">
-              <Link to="#" className="menu-bars close">
-                <AiIcons.AiOutlineClose />
-              </Link>
-            </li>
             <li className="item">
               <Link to="/">Home</Link>
             </li>
             <li className="item">
-              <Link to="/about">About</Link>
+              <Link to="/about">About Us</Link>
             </li>
             <li className="item">
               <Link to="/create">Create Your Plan</Link>
             </li>
           </ul>
         </nav>
-      </div>
-      <div className="nav-item-container">
-        <Link className="nav-item" to="/">
-          HOME
-        </Link>
-        <Link className="nav-item" to="/about">
-          ABOUT US
-        </Link>
-        <Link className="nav-item" to="/contact">
-          CREATE YOUR PLAN
-        </Link>
+        <div className="nav-item-container">
+          <Link className="nav-item" to="/">
+            HOME
+          </Link>
+          <Link className="nav-item" to="/about">
+            ABOUT US
+          </Link>
+          <Link className="nav-item" to="/contact">
+            CREATE YOUR PLAN
+          </Link>
+        </div>
       </div>
     </div>
   );
