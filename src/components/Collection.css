@@ -1,0 +1,27 @@
+.collection-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+.coffee-logo {
+  width: 200px;
+  height: 150px;
+}
+
+.coffee-info {
+  text-align: center;
+  color: #333d4b;
+}
+
+.coffee-name {
+  font-family: "Fraunces", serif;
+  font-size: 2.5rem;
+}
+
+.coffee-description {
+  font-family: "Barlow", sans-serif;
+  font-size: 1.7rem;
+  margin: 0 3rem 3rem;
+}
