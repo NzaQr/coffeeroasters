@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Header.css";
 import Logo from "../assets/logo.svg";
-import * as FaIcons from "react-icons/fa";
-import * as AiIcons from "react-icons/ai";
+import Open from "../assets/icon-open.svg";
+import Close from "../assets/icon-close.svg";
 
 export default function Header() {
   const [sidebar, setSidebar] = useState(false);
@@ -17,9 +17,9 @@ export default function Header() {
       <div className="nav">
         <Link to="#" className="menu-bars">
           {sidebar ? (
-            <AiIcons.AiOutlineClose onClick={showSidebar} />
+            <img src={Close} alt="myteam logo" onClick={showSidebar} />
           ) : (
-            <FaIcons.FaBars onClick={showSidebar} />
+            <img src={Open} alt="myteam logo" onClick={showSidebar} />
           )}
         </Link>
         <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
@@ -35,17 +35,17 @@ export default function Header() {
             </li>
           </ul>
         </nav>
-        <div className="nav-item-container">
-          <Link className="nav-item" to="/">
-            HOME
-          </Link>
-          <Link className="nav-item" to="/about">
-            ABOUT US
-          </Link>
-          <Link className="nav-item" to="/contact">
-            CREATE YOUR PLAN
-          </Link>
-        </div>
+      </div>
+      <div className="nav-item-container">
+        <Link className="nav-item" to="/">
+          HOME
+        </Link>
+        <Link className="nav-item" to="/about">
+          ABOUT US
+        </Link>
+        <Link className="nav-item" to="/contact">
+          CREATE YOUR PLAN
+        </Link>
       </div>
     </div>
   );
