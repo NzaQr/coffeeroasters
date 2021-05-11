@@ -1,17 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Home.css";
-import collectionData from "../components/collectionData";
-import featuresData from "../components/featuresData";
+import data from "../components/Data";
 import Collection from "../components/Collection";
 import Features from "../components/Features";
 
 export default function Home() {
-  const ourColecction = collectionData.map((item) => (
+  const ourColecction = data[0].collectionData.map((item) => (
     <Collection key={item.name} collection={item} />
   ));
 
-  const features = featuresData.map((item) => (
+  const features = data[1].featuresData.map((item) => (
     <Features key={item.title} feature={item} />
   ));
 
