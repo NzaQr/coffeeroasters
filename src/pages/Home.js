@@ -1,12 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Home.css";
-import data from "../components/collectionData";
+import collectionData from "../components/collectionData";
+import featuresData from "../components/featuresData";
 import Collection from "../components/Collection";
+import Features from "../components/Features";
 
 export default function Home() {
-  const ourColecction = data.map((item) => (
+  const ourColecction = collectionData.map((item) => (
     <Collection key={item.name} collection={item} />
+  ));
+
+  const features = featuresData.map((item) => (
+    <Features key={item.title} feature={item} />
   ));
 
   return (
@@ -33,6 +39,7 @@ export default function Home() {
           featured in our range. This means working closely with the best coffee
           growers to give you a more impactful experience on every level.
         </p>
+        {features}
       </div>
     </>
   );

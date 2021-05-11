@@ -15,8 +15,14 @@
   padding: 0 15px;
 }
 
-.create-plan-card__title {
+.create-plan-card__title,
+.create-plan-card__button,
+.collection-title,
+.features-title {
   font-family: "Fraunces", serif;
+}
+
+.create-plan-card__title {
   color: #fefcf7;
   font-size: 4rem;
   line-height: 5rem;
@@ -32,7 +38,6 @@
 }
 
 .create-plan-card__button {
-  font-family: "Fraunces", serif;
   font-weight: 700;
   font-size: 2rem;
   color: #fefcf7;
@@ -49,11 +54,33 @@
 
 .collection-title {
   text-align: center;
-  font-family: "Fraunces", serif;
   font-size: 4rem;
   background: -webkit-linear-gradient(#83888f, #fefcf7);
   background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.features {
+  text-align: center;
+  background-color: #333d4b;
+  margin: 2rem 2.5rem;
+  padding: 0 3rem;
+  border-radius: 10px;
+  height: 85rem;
+}
+
+.features-title {
+  color: #fefcf7;
+  font-size: 3rem;
+  padding-top: 5rem;
+}
+
+.features-text {
+  font-family: "Barlow", serif;
+  color: #fefcf7;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  opacity: 0.8;
 }
 
 @media (min-width: 800px) {

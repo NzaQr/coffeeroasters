@@ -1,0 +1,22 @@
+.feature-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3rem 0;
+  padding: 5rem 20px;
+  color: #fefcf7;
+  background-color: #0e8784;
+  border-radius: 10px;
+}
+
+.feature-title {
+  font-family: "Fraunces", serif;
+  font-size: 2.5rem;
+  margin: 6rem 0 0 0;
+}
+
+.feature-description {
+  font-family: "Barlow", serif;
+  font-size: 1.7rem;
+  line-height: 2.5rem;
+}
