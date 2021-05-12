@@ -16,9 +16,10 @@
 }
 
 .create-plan-card__title,
-.create-plan-card__button,
+.create-plan-button,
 .collection-title,
-.features-title {
+.features-title,
+.steps-title {
   font-family: "Fraunces", serif;
 }
 
@@ -37,7 +38,7 @@
   margin: 4rem 0;
 }
 
-.create-plan-card__button {
+.create-plan-button.card {
   font-weight: 700;
   font-size: 2rem;
   color: #fefcf7;
@@ -48,7 +49,23 @@
   padding: 2rem 3rem;
 }
 
-.create-plan-card__button:hover {
+.create-plan-button-container {
+  margin: 10rem 0 15rem;
+}
+
+.create-plan-button {
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #fefcf7;
+  background-color: #0e8784;
+  transition: all 0.1s ease-in-out;
+  border: none;
+  border-radius: 10px;
+  padding: 2rem 3rem;
+}
+
+.create-plan-button:hover {
   background-color: #66d2cf;
 }
 
@@ -81,6 +98,16 @@
   font-size: 1.5rem;
   line-height: 2.5rem;
   opacity: 0.8;
+}
+
+.steps {
+  margin-top: 65rem;
+  text-align: center;
+}
+
+.steps-title {
+  color: #83888f;
+  font-size: 2.5rem;
 }
 
 @media (min-width: 800px) {

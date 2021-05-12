@@ -3,15 +3,19 @@ import { Link } from "react-router-dom";
 import "./Home.css";
 import data from "../components/Data";
 import Collection from "../components/Collection";
-import Features from "../components/Features";
-
+import Features from "../components/Feature";
+import Step from "../components/Step";
 export default function Home() {
-  const ourColecction = data[0].collectionData.map((item) => (
+  const ourColecction = data[0].collection.map((item) => (
     <Collection key={item.name} collection={item} />
   ));
 
-  const features = data[1].featuresData.map((item) => (
+  const features = data[1].features.map((item) => (
     <Features key={item.title} feature={item} />
+  ));
+
+  const steps = data[2].steps.map((item) => (
+    <Step key={item.title} steps={item} />
   ));
 
   return (
@@ -24,7 +28,7 @@ export default function Home() {
             curated artisan coffees from our best roasters delivered directly to
             your door, at your schedule.
           </p>
-          <Link to="/create" className="create-plan-card__button">
+          <Link to="/create" className="create-plan-button card">
             Create your plan
           </Link>
         </div>
@@ -39,6 +43,15 @@ export default function Home() {
           growers to give you a more impactful experience on every level.
         </p>
         {features}
+      </div>
+      <div className="steps">
+        <h2 className="steps-title">How it works</h2>
+        {steps}
+        <div className="create-plan-button-container">
+          <Link to="/create" className="create-plan-button">
+            Create your plan
+          </Link>
+        </div>
       </div>
     </>
   );

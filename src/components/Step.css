@@ -1,0 +1,28 @@
+.step-container {
+  padding: 0 2.5rem;
+}
+.step-title,
+.step-number {
+  font-family: "Fraunces", serif;
+}
+
+.step-title,
+.step-description {
+  color: #333d4b;
+}
+
+.step-number {
+  color: #fdd6ba;
+  font-size: 7rem;
+  margin-bottom: 0;
+}
+
+.step-title {
+  font-size: 3rem;
+}
+
+.step-description {
+  font-family: "Barlow", sans-serif;
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+}
