@@ -12,14 +12,14 @@ export default function Header() {
   return (
     <div className="header-container">
       <Link to="/">
-        <img className="logo" src={Logo} alt="myteam logo" />
+        <img className="logo" src={Logo} alt="coffeeroasters logo" />
       </Link>
       <div className="nav">
         <Link to="#" className="menu-bars">
           {sidebar ? (
-            <img src={Close} alt="myteam logo" onClick={showSidebar} />
+            <img src={Close} alt="coffeeroasters logo" onClick={showSidebar} />
           ) : (
-            <img src={Open} alt="myteam logo" onClick={showSidebar} />
+            <img src={Open} alt="coffeeroasters logo" onClick={showSidebar} />
           )}
         </Link>
         <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
