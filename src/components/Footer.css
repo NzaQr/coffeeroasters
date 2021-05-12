@@ -1,0 +1,39 @@
+.footer-container {
+  text-align: center;
+  background-color: #333d4b;
+  padding-bottom: 30px;
+}
+
+.footer-logo {
+  margin: 4rem;
+}
+
+.links-container,
+.socials-container {
+  list-style: none;
+  padding: 0;
+}
+
+.links-container > li {
+  margin-bottom: 3rem;
+}
+
+.link {
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  color: #83888f;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+.socials-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.social {
+  color: #fefcf7;
+  font-size: 4rem;
+  margin: 5px;
+}

@@ -1,11 +1,11 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Plan from "./pages/Plan";
-
 function App() {
   return (
     <>
@@ -17,6 +17,7 @@ function App() {
           <Route path="/about" component={About} />
           <Route path="/create" component={Plan} />
         </Switch>
+        <Footer />
       </Router>
     </>
   );
