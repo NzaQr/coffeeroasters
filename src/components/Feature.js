@@ -1,5 +1,5 @@
 import React from "react";
-import "./Features.css";
+import "./Feature.css";
 
 export default function Features({ feature: { img, title, description } }) {
   return (
