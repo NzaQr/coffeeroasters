@@ -11,27 +11,28 @@ import {
 export default function Footer() {
   return (
     <div className="footer-container">
-      <Link to="/">
-        <img className="footer-logo" src={Logo} alt="coffeeroasters logo" />
-      </Link>
-      <ul className="links-container">
-        <li>
-          <Link to="/" className="link">
-            Home
-          </Link>
-        </li>
-        <li>
-          <Link to="/about" className="link">
-            About Us
-          </Link>
-        </li>
-        <li>
-          <Link to="/create" className="link">
-            Create Your Plan
-          </Link>
-        </li>
-      </ul>
-
+      <div className="logo-links-container">
+        <Link to="/">
+          <img className="footer-logo" src={Logo} alt="coffeeroasters logo" />
+        </Link>
+        <ul className="links-container">
+          <li>
+            <Link to="/" className="link">
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link to="/about" className="link">
+              About Us
+            </Link>
+          </li>
+          <li>
+            <Link to="/create" className="link">
+              Create Your Plan
+            </Link>
+          </li>
+        </ul>
+      </div>
       <ul className="socials-container">
         <li className="social">
           <a className="social" href="https://facebook.com">
@@ -46,7 +47,7 @@ export default function Footer() {
         <li className="social">
           <a className="social" href="https://instagram.com">
             <AiOutlineInstagram />
-          </a>{" "}
+          </a>
         </li>
       </ul>
     </div>

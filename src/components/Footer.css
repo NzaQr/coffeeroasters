@@ -1,4 +1,6 @@
 .footer-container {
+  display: flex;
+  flex-direction: column;
   text-align: center;
   background-color: #333d4b;
   padding-bottom: 30px;
@@ -12,6 +14,11 @@
 .socials-container {
   list-style: none;
   padding: 0;
+}
+
+.links-container {
+  display: flex;
+  flex-direction: column;
 }
 
 .links-container > li {
@@ -36,4 +43,27 @@
   color: #fefcf7;
   font-size: 4rem;
   margin: 5px;
+}
+
+@media (min-width: 1200px) {
+  .footer-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 6rem;
+  }
+
+  .links-container {
+    flex-direction: row;
+    height: 10px;
+  }
+
+  .link {
+    margin: 3rem;
+  }
+
+  .logo-links-container {
+    display: flex;
+    align-items: center;
+  }
 }
