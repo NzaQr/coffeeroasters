@@ -5,6 +5,9 @@ import danche from "../assets/danche.png";
 import bean from "../assets/coffee-bean.svg";
 import gift from "../assets/gift.svg";
 import truck from "../assets/truck.svg";
+import UK from "../assets/uk.svg";
+import CA from "../assets/canada.svg";
+import AU from "../assets/australia.svg";
 const data = {
   0: {
     collection: [
@@ -75,6 +78,34 @@ const data = {
         title: "Receive and enjoy!",
         description:
           " We ship your package within 48 hours, freshly roasted. Sit back and enjoy award-winning world-class coffees curated to provide a distinct tasting experience. ",
+      },
+    ],
+  },
+  3: {
+    locations: [
+      {
+        img: UK,
+        country: "United Kingdom",
+        street: "68 Asfordby Rd",
+        city: "Alcaston",
+        PC: "SY6 1YA",
+        number: "+44 1241 918425",
+      },
+      {
+        img: CA,
+        country: "Canada",
+        street: "1528 Eglinton Avenue",
+        city: "Toronto",
+        PC: "Ontario M4P 1A6",
+        number: "+1 416 485 2997",
+      },
+      {
+        img: AU,
+        country: "Australia",
+        street: "36 Swanston Street",
+        city: "Kewell",
+        PC: "Victoria",
+        number: "+61 4 9928 3629",
       },
     ],
   },

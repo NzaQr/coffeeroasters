@@ -1,0 +1,108 @@
+.about-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(../assets/about-coffee-mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45rem;
+  margin: 12rem 2.5rem;
+  padding: 0 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.about-title {
+  font-family: "Fraunces", serif;
+  color: #fefcf7;
+  font-size: 4rem;
+  line-height: 5rem;
+}
+
+.about-text {
+  font-family: "Barlow", serif;
+  color: #fefcf7;
+  font-size: 1.5rem;
+  line-height: 3rem;
+  opacity: 0.8;
+  margin: 4rem 0;
+}
+
+.barista-img-container {
+  margin: 0 2.5rem 5rem;
+  background-image: url(../assets/barista-mobile.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50rem;
+  border-radius: 10px;
+}
+
+.commitment-container {
+  text-align: center;
+  margin: 0 2.5rem;
+}
+
+.commitment-title {
+  font-family: "Fraunces", serif;
+  font-size: 3rem;
+  color: #333d4b;
+  margin-bottom: 3rem;
+}
+
+.commitment-text {
+  font-family: "Barlow", serif;
+  font-size: 1.5rem;
+  color: #333d4b;
+  line-height: 2.5rem;
+  margin-bottom: 0;
+}
+
+.quality-img-container {
+  background-image: url(../assets/quality-mobile.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 15rem;
+  width: 25rem;
+  border-radius: 10px;
+  margin: 0 auto;
+  position: relative;
+  top: 100px;
+}
+
+.quality-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(../assets/grain-bg-mobile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45rem;
+  margin: 2rem 2.5rem;
+  padding: 5rem 15px 0;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.quality-title {
+  font-family: "Fraunces", serif;
+  color: #fefcf7;
+  font-size: 3rem;
+}
+
+.quality-text {
+  font-family: "Barlow", serif;
+  color: #fefcf7;
+  font-size: 1.5rem;
+  line-height: 3rem;
+  opacity: 0.8;
+  margin: 2rem 0;
+}
+
+.headquarters-title {
+  font-family: "Fraunces", serif;
+  color: #83888f;
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 8rem 0 5rem;
+}

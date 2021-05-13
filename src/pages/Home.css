@@ -81,7 +81,9 @@
 
 .features {
   text-align: center;
-  background-color: #333d4b;
+  background-image: url(../assets/grain-bg-mobile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   margin: 2rem 2.5rem;
   padding: 0 3rem;
   border-radius: 10px;
@@ -136,6 +138,7 @@
   .features {
     height: 50rem;
     padding: 2rem 10rem;
+    background-image: url(../assets/grain-bg-desktop.png);
   }
 
   .features-title {
