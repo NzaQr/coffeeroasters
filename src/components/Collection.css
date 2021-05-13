@@ -25,3 +25,34 @@
   font-size: 1.7rem;
   margin: 0 3rem 3rem;
 }
+
+@media (min-width: 800px) {
+  .coffee-logo {
+    width: 250px;
+    height: 200px;
+  }
+  .collection-container {
+    flex-direction: row;
+    justify-content: center;
+    margin: 5rem 25rem;
+  }
+  .coffee-info {
+    text-align: left;
+  }
+  .coffee-description {
+    margin: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .collection-container {
+    flex-direction: column;
+    margin: 3rem;
+  }
+  .coffee-info {
+    text-align: center;
+  }
+  .coffee-description {
+    margin: 0 3rem 3rem;
+  }
+}

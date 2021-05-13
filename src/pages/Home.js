@@ -33,8 +33,10 @@ export default function Home() {
           </Link>
         </div>
       </div>
-      <h1 className="collection-title">our collection</h1>
-      {ourColecction}
+      <div className="collection">
+        <h1 className="collection-title">our collection</h1>
+        <div className="collection-component">{ourColecction}</div>
+      </div>
       <div className="features">
         <h1 className="features-title">Why choose us?</h1>
         <p className="features-text">
@@ -42,11 +44,12 @@ export default function Home() {
           featured in our range. This means working closely with the best coffee
           growers to give you a more impactful experience on every level.
         </p>
-        {features}
+        <div className="features-component">{features}</div>
       </div>
       <div className="steps">
         <h2 className="steps-title">How it works</h2>
-        {steps}
+
+        <div className="steps-component">{steps}</div>
         <div className="create-plan-button-container">
           <Link to="/create" className="create-plan-button">
             Create your plan
