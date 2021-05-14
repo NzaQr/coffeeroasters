@@ -5,6 +5,7 @@
   background-image: url(../assets/about-coffee-mobile.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   height: 45rem;
   margin: 12rem 2.5rem;
   padding: 0 15px;
@@ -24,7 +25,6 @@
   color: #fefcf7;
   font-size: 1.5rem;
   line-height: 3rem;
-  opacity: 0.8;
   margin: 4rem 0;
 }
 
@@ -37,7 +37,7 @@
   border-radius: 10px;
 }
 
-.commitment-container {
+.commitment-content-container {
   text-align: center;
   margin: 0 2.5rem;
 }
@@ -105,4 +105,134 @@
   font-size: 2.5rem;
   text-align: center;
   margin: 8rem 0 5rem;
+}
+
+@media (min-width: 800px) {
+  .about-card {
+    margin-top: 3rem;
+    text-align: left;
+    background-image: url(../assets/about-coffee-desktop.jpg);
+    background-size: cover;
+  }
+
+  .about-content-container {
+    margin-left: 3rem;
+  }
+
+  .about-text {
+    width: 50%;
+  }
+
+  .comitment {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .barista-img-container {
+    background-image: url(../assets/barista-desktop.jpg);
+    border-radius: 10px;
+    width: 100%;
+  }
+
+  .commitment-content-container {
+    flex-basis: 140rem;
+    text-align: left;
+    padding: 5rem;
+  }
+
+  .quality-img-container {
+    background-image: url(../assets/quality-desktop.jpg);
+    height: 35rem;
+    width: 55rem;
+  }
+
+  .quality-card {
+    background-image: url(../assets/grain-bg-desktop.png);
+  }
+
+  .quality-title {
+    font-size: 3.5rem;
+  }
+
+  .quality-text {
+    margin: 2rem 10.5rem;
+  }
+
+  .headquarters-title {
+    text-align: left;
+    margin-left: 2.5rem;
+  }
+
+  .headquarters-component {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  .about-content-container {
+    margin-left: 5rem;
+  }
+
+  .about-text {
+    width: 25%;
+  }
+
+  .comitment {
+    height: 50rem;
+    justify-content: space-evenly;
+    margin: 0 15rem;
+  }
+
+  .commitment-content-container {
+    text-align: left;
+    padding: 5rem;
+  }
+
+  .commitment-title {
+    font-size: 5rem;
+  }
+
+  .commitment-text {
+    font-size: 1.6rem;
+  }
+
+  .barista-img-container {
+    width: 60rem;
+    margin: 0 2.5rem 0 10rem;
+  }
+
+  .quality-img-container {
+    background-image: url(../assets/quality-desktop2.jpg);
+    margin: 0;
+    position: absolute;
+    left: 1200px;
+    top: 1100px;
+    height: 55rem;
+    width: 50rem;
+  }
+
+  .quality-card {
+    text-align: left;
+    padding: 0 0 5rem 0;
+    margin-top: 25rem;
+  }
+
+  .quality-title {
+    font-size: 4rem;
+    margin-left: 10.5rem;
+  }
+
+  .quality-text {
+    width: 50%;
+  }
+
+  .headquarters-title {
+    margin: 6rem 12rem;
+  }
+
+  .headquarters-component {
+    margin-left: 10rem;
+  }
 }

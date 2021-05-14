@@ -16,3 +16,10 @@
   line-height: 15px;
   margin: 3rem 0 8rem;
 }
+
+@media (min-width: 800px) {
+  .location {
+    text-align: left;
+    margin: 0 8rem 0 2.5rem;
+  }
+}
