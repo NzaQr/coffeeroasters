@@ -48,7 +48,11 @@ export default function Home() {
       </div>
       <div className="steps">
         <h2 className="steps-title">How it works</h2>
-
+        <div class="timeline-container">
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+        </div>
         <div className="steps-component">{steps}</div>
         <div className="create-plan-button-container">
           <Link to="/create" className="create-plan-button">

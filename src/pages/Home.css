@@ -114,6 +114,32 @@
   font-size: 2.5rem;
 }
 
+.timeline-container {
+  display: none;
+  position: relative;
+  justify-content: space-between;
+  width: 75%;
+  margin: 5rem 0 2rem 2.5rem;
+}
+
+.timeline-container::before {
+  content: "";
+  width: 100%;
+  height: 3px;
+  position: absolute;
+  top: 15px;
+  background-color: #fdd6ba;
+}
+
+.circle {
+  height: 30px;
+  width: 30px;
+  border: 3px solid #0e8784;
+  border-radius: 50%;
+  background-color: #fefcf7;
+  z-index: 1;
+}
+
 @media (min-width: 800px) {
   .create-plan-card {
     margin-top: 3rem;
@@ -163,6 +189,10 @@
   .steps-component {
     display: flex;
   }
+
+  .timeline-container {
+    display: flex;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -202,5 +232,8 @@
   }
   .steps {
     margin-top: 30rem;
+  }
+  .timeline-container {
+    width: 48%;
   }
 }
