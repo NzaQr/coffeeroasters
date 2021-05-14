@@ -43,7 +43,7 @@ export default function Header() {
         <Link className="nav-item" to="/about">
           ABOUT US
         </Link>
-        <Link className="nav-item" to="/contact">
+        <Link className="nav-item" to="/create">
           CREATE YOUR PLAN
         </Link>
       </div>
