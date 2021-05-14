@@ -20,10 +20,12 @@ export default function Home() {
 
   return (
     <>
-      <div className="create-plan-card">
-        <div className="create-plan-content__container">
-          <h1 className="create-plan-card__title">Great coffee made simple.</h1>
-          <p className="create-plan-card__text">
+      <div className="great-coffee-card">
+        <div className="great-coffee-content__container">
+          <h1 className="great-coffee-card__title">
+            Great coffee made simple.
+          </h1>
+          <p className="great-coffee-card__text">
             Start your mornings with the world’s best coffees. Try our expertly
             curated artisan coffees from our best roasters delivered directly to
             your door, at your schedule.

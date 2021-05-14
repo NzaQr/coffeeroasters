@@ -1,4 +1,4 @@
-.create-plan-card {
+.great-coffee-card {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11,11 +11,11 @@
   text-align: center;
 }
 
-.create-plan-content__container {
+.great-coffee-content__container {
   padding: 0 15px;
 }
 
-.create-plan-card__title,
+.great-coffee-card__title,
 .create-plan-button,
 .collection-title,
 .features-title,
@@ -23,13 +23,13 @@
   font-family: "Fraunces", serif;
 }
 
-.create-plan-card__title {
+.great-coffee-card__title {
   color: #fefcf7;
   font-size: 4rem;
   line-height: 5rem;
 }
 
-.create-plan-card__text {
+.great-coffee-card__text {
   font-family: "Barlow", serif;
   color: #fefcf7;
   font-size: 1.5rem;
@@ -141,13 +141,13 @@
 }
 
 @media (min-width: 800px) {
-  .create-plan-card {
+  .great-coffee-card {
     margin-top: 3rem;
     text-align: left;
     background-image: url(../assets/home-coffee.jpg);
     background-size: cover;
   }
-  .create-plan-content__container {
+  .great-coffee-content__container {
     max-width: 40%;
     margin: 5rem;
   }
@@ -196,15 +196,15 @@
 }
 
 @media (min-width: 1200px) {
-  .create-plan-card {
+  .great-coffee-card {
     background-size: 100%;
     height: 70rem;
   }
-  .create-plan-card__title {
+  .great-coffee-card__title {
     font-size: 5vw;
     line-height: 10vh;
   }
-  .create-plan-card__text {
+  .great-coffee-card__text {
     font-size: 1.6rem;
     max-width: 60%;
     margin-bottom: 6rem;
