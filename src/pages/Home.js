@@ -5,6 +5,7 @@ import data from "../components/Data";
 import Collection from "../components/Collection";
 import Features from "../components/Feature";
 import Step from "../components/Step";
+
 export default function Home() {
   const ourColecction = data[0].collection.map((item) => (
     <Collection key={item.name} collection={item} />
@@ -50,10 +51,10 @@ export default function Home() {
       </div>
       <div className="steps">
         <h2 className="steps-title">How it works</h2>
-        <div class="timeline-container">
-          <div class="circle"></div>
-          <div class="circle"></div>
-          <div class="circle"></div>
+        <div className="timeline-container">
+          <div className="circle"></div>
+          <div className="circle"></div>
+          <div className="circle"></div>
         </div>
         <div className="steps-component">{steps}</div>
         <div className="create-plan-button-container">

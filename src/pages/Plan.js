@@ -1,4 +1,6 @@
 import React from "react";
+import CreatePlan from "../components/CreatePlan";
+
 import "./Plan.css";
 
 export default function Plan() {
@@ -15,10 +17,10 @@ export default function Plan() {
         </div>
       </div>
       <div className="steps-create-plan">
-        <div class="timeline-container">
-          <div class="circle"></div>
-          <div class="circle"></div>
-          <div class="circle"></div>
+        <div className="timeline-container">
+          <div className="circle"></div>
+          <div className="circle"></div>
+          <div className="circle"></div>
         </div>
         <div className="steps-component">
           <div className="step-container">
@@ -51,6 +53,7 @@ export default function Plan() {
           </div>
         </div>
       </div>
+      <CreatePlan />
     </>
   );
 }
