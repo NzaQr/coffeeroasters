@@ -1,0 +1,46 @@
+.question-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2.5rem;
+}
+
+.question {
+  font-family: "Fraunces", serif;
+  color: #83888f;
+  font-size: 2.5rem;
+}
+
+.arrow {
+  color: #0e8784;
+  height: 3rem;
+  width: 3rem;
+  cursor: pointer;
+}
+
+.option-container,
+.option-container-selected {
+  margin: 1.5rem 2.5rem;
+  padding: 2.5rem;
+  color: #333d4b;
+  background-color: #f4f1eb;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.1s ease-out;
+}
+
+.option-container:hover,
+.option-container-selected {
+  color: #f4f1eb;
+  background-color: #0e8784;
+}
+
+.option-title {
+  font-family: "Fraunces", serif;
+  font-size: 2.5rem;
+}
+
+.option-description {
+  font-family: "Barlow", serif;
+  font-size: 1.5rem;
+}

@@ -109,5 +109,130 @@ const data = {
       },
     ],
   },
+
+  4: {
+    createPlan: [
+      {
+        id: 0,
+        title: "How do you drink your coffee?",
+        options: [
+          {
+            sub_id: 0,
+            optionTitle: "Capsule",
+            description:
+              "Compatible with Nespresso systems and similar brewers",
+          },
+          {
+            sub_id: 1,
+            optionTitle: "Filter",
+            description:
+              "For pour over or drip methods like Aeropress, Chemex, and V60",
+          },
+          {
+            sub_id: 2,
+            optionTitle: "Espresso",
+            description:
+              "Dense and finely ground beans for an intense, flavorful experience",
+          },
+        ],
+      },
+      {
+        id: 1,
+        title: "What type of coffee?",
+        options: [
+          {
+            sub_id: 0,
+            optionTitle: "Single origin",
+            description:
+              "Distinct, high quality coffee from a specific family-owned farm",
+          },
+          {
+            sub_id: 1,
+            optionTitle: "Decaf",
+            description:
+              "Just like regular coffee, except the caffeine has been removed",
+          },
+          {
+            sub_id: 2,
+            optionTitle: "Blended",
+            description:
+              "Combination of two or three dark roasted beans of organic coffees",
+          },
+        ],
+      },
+      {
+        id: 2,
+        title: "How much would you like?",
+        options: [
+          {
+            sub_id: 0,
+            optionTitle: "250g",
+            description:
+              "Perfect for the solo drinker. Yields about 12 delicious cups.",
+          },
+          {
+            sub_id: 1,
+            optionTitle: "500g",
+            description:
+              "Perfect option for a couple. Yields about 40 delectable cups.",
+          },
+          {
+            sub_id: 2,
+            optionTitle: "1000g",
+            description:
+              "Perfect for offices and events. Yields about 90 delightful cups.",
+          },
+        ],
+      },
+      {
+        id: 3,
+        title: "Want us to grind them?",
+        options: [
+          {
+            sub_id: 0,
+            optionTitle: "Wholebean",
+            description:
+              "Best choice if you cherish the full sensory experience",
+          },
+          {
+            sub_id: 1,
+            optionTitle: "Filter",
+            description:
+              "For pour over or drip methods like Aeropress, Chemex, and V60",
+          },
+          {
+            sub_id: 2,
+            optionTitle: "Cafetiére",
+            description:
+              "Coarse ground beans specially suited for french press coffee",
+          },
+        ],
+      },
+      {
+        id: 4,
+        title: "How often should we deliver?",
+        options: [
+          {
+            sub_id: 0,
+            optionTitle: "Every week",
+            description:
+              "$14.00 per shipment. Includes free first-class shipping.",
+          },
+          {
+            sub_id: 1,
+            optionTitle: "Every 2 weeks",
+            description:
+              "$17.25 per shipment. Includes free priority shipping.",
+          },
+          {
+            sub_id: 2,
+            optionTitle: "Espresso",
+            description:
+              "$22.50 per shipment. Includes free priority shipping.",
+          },
+        ],
+      },
+    ],
+  },
 };
 export default data;
